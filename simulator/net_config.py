@@ -1,7 +1,7 @@
 # ---------------------------- time ------------------------------ #
 UNIT = 1e6  # us
 
-# ------------------------- net topology ------------------------- #
+# ------------------------- simulator topology ------------------------- #
 SUM_NODES = 18
 SRC, DES = [0, 1, 2], [15, 16, 17]
 FLOW_DICT = {
@@ -49,7 +49,7 @@ NODE_POSITION = {
     17: [406, 242],
 }
 
-# -------------------------- net layer --------------------------- #
+# -------------------------- simulator layer --------------------------- #
 VIOLATE_P = 1e-3  # violate probability
 MAX_RETRIES = 5  # maximum retransmission attempts
 PACKET_HEADER_LENGTH = 128  # bit

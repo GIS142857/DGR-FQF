@@ -4,7 +4,7 @@ from scipy import integrate
 import math
 import inspect
 from scipy.stats import gamma
-from model_config import *
+from net_config import *
 
 
 def calculate_interference_distance(transmitting_power_dBm, frequency_Hz, gain_t, gain_r, interference_threshold_W):

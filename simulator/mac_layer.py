@@ -1,5 +1,5 @@
 from pdu import PDU
-from model_config import *
+from net_config import *
 
 class MacLayer:
     def __init__(self, node):

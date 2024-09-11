@@ -1,6 +1,5 @@
-from model_config import *
+from net_config import *
 from utils import *
-import random
 
 
 class PhyLayer:
